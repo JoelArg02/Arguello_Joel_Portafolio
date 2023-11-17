@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Joel Arguello - Portafolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarCollapse" data-offset="50">
+    <header>
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark" id="navbarCollapse">
+            <div class="container d-flex justify-content-center align-items-center">
+                <a class="navbar-brand" href="#">Joel Arguello - Portafolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center custom-navbar-nav" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto" id="navList">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio" onclick="loadHomeContent()"
+                                data-target="inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" onclick="loadAboutContent()" data-target="about">Sobre
+                                Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" onclick="loadSkillContent()"
+                                data-target="skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos" onclick="loadProyectosContent()"
+                                data-target="proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" onclick="loadContactContent()"
+                                data-target="contact">Contacto</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/JoelArg02" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-content">
+
+        <div id="inicio" class="section modal-body d-flex justify-content-center align-items-center pad rounded">
+        </div>
+
+        <div id="about" class="modal-body d-flex justify-content-center align-items-center pad rounded">
+        </div>
+
+        <div id="skills" class="modal-body d-flex justify-content-center align-items-center pad rounded">
+        </div>
+
+        <div id="proyectos" class="modal-body d-flex justify-content-center align-items-center pad rounded">
+        </div>
+
+        <div id="contact" class="modal-body d-flex justify-content-center align-items-center pad pad-c rounded">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="pages/home.js"></script>
+    <script src="pages/about.js"></script>
+    <script src="pages/skill.js"></script>
+    <script src="pages/proyectos.js"></script>
+    <script src="pages/contact.js"></script>
+</body>
+
+</html>
