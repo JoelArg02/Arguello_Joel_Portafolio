@@ -2,8 +2,10 @@ body{
     background-color: #f2f2f2; 
 }
 
-img{
-    position: relative;
+/* CSS para hacer todas las imágenes responsivas */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .custom-navbar-nav {
@@ -49,8 +51,4 @@ img{
 video{
     width: auto;
     height: 400px;
-}
-
-@media (min-width: 768px) and (max-width: 991px)  and (max-width: 767px) {
-
 }
