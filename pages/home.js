@@ -5,7 +5,7 @@ function loadHomeContent() {
                 <div class="row">
                     <div class="col-md-5">
                         <div style="width: 534px; height: 266px; overflow: hidden;">
-                            <img src="../img/my-image.jpg" alt="Mi Imagen" class="img-fluid rounded" style="width: 80%; height: 100%; object-fit: cover;">
+                            <img src="img/my-image.jpg" alt="Mi Imagen" class="img-fluid rounded" style="width: 80%; height: 100%; object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
